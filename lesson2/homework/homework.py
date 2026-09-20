@@ -1,6 +1,7 @@
 # Homework Problem 1
 # Ask the user for two numbers.
 # Print their quotient and remainder on separate lines.
+print("Whole numbers only!")
 x1 = input("First number: ")
 y1 = input("Second number: ")
 x = int(x1)
