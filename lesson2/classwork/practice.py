@@ -40,3 +40,5 @@ print("So if what you're saying is correct, your name is", str(name) + ", and yo
 
 # Problem 5
 # Use a for loop to print the numbers from 2 to 8, one per line.
+for i in range (2,8):
+    print(i)
