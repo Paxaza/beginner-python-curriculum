@@ -24,13 +24,18 @@ print("Ah... your result appears to be", str(numfnl) + ".")
 
 # Problem 3
 # Use a for loop to print "I will learn Python!" 3 times.
-
+pyth = str("I will learn Python")
+for i in range (3):
+    print(pyth)
 
 
 # Problem 4
 # Ask the user for their name and age.
 # Print their name and how old they will be one year in a single sentence.
-
+name = input("What is your name? ")
+agei = input("How old are you? ")
+age = int(agei)
+print("So if what you're saying is correct, your name is", str(name) + ", and you are", str(age) + " years old?")
 
 
 # Problem 5
